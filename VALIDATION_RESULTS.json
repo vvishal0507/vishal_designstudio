@@ -1,0 +1,80 @@
+{
+  "date": "2026-09-22",
+  "environment": "Node.js + JSDOM; no graphical browser",
+  "results": [
+    {
+      "check": "All configured portfolio, services, packages and FAQ entries render without runtime errors in a simulated DOM",
+      "status": "passed"
+    },
+    {
+      "check": "Exact draft prices, package names, WhatsApp enquiry amounts and approval notices",
+      "status": "passed"
+    },
+    {
+      "check": "All four graphic filters and hiding unavailable filter categories",
+      "status": "passed"
+    },
+    {
+      "check": "Every portfolio image maps to its original; open/close handlers and focus restoration (dialog API simulated)",
+      "status": "passed"
+    },
+    {
+      "check": "Image viewer previous/next, wraparound and arrow-key handlers",
+      "status": "passed"
+    },
+    {
+      "check": "Mobile-menu open, close on navigation, Escape and ARIA state",
+      "status": "passed"
+    },
+    {
+      "check": "All rendered anchors resolve to page sections, existing images or the approved contact destinations",
+      "status": "passed"
+    },
+    {
+      "check": "Unique element IDs, hero copy and prohibited terminology scan of page text",
+      "status": "passed"
+    },
+    {
+      "check": "Every rendered image and local script/style reference exists",
+      "status": "passed"
+    },
+    {
+      "check": "Invalid form rejected; valid fields and Unicode encoded correctly; blocked-popup fallback; truthful status (window.open intercepted, no network request)",
+      "status": "passed"
+    },
+    {
+      "check": "Invalid phone characters rejected",
+      "status": "passed"
+    },
+    {
+      "check": "Active navigation follows section order and back-to-top toggles (scroll positions simulated)",
+      "status": "passed"
+    },
+    {
+      "check": "Approval flag removes draft labels only when explicitly set true",
+      "status": "passed"
+    },
+    {
+      "check": "All 20 portfolio originals match recorded SHA-256 source hashes",
+      "status": "passed"
+    },
+    {
+      "check": "No fetch/module dependency preventing ordinary local-file loading",
+      "status": "passed"
+    },
+    {
+      "check": "All image files decode, previews preserve proportions, form labels and a single primary heading are present",
+      "status": "passed"
+    },
+    {
+      "check": "Optional metadata utility emits absolute social URLs and canonical metadata; repeat execution is stable",
+      "status": "passed"
+    }
+  ],
+  "limitations": [
+    "CSS layout and the five requested viewport widths were not visually tested.",
+    "Native dialog Escape behavior, focus trapping, native FAQ keyboard behavior and browser popup policy require a real-browser check.",
+    "No messages were sent and external app availability was not tested.",
+    "file:// browser navigation was blocked by the available browser policy; local browser installation did not complete."
+  ]
+}
